@@ -12,7 +12,8 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link rel="stylesheet" href="{{ asset('build/assets/app-C_TSVpcb.css') }}">
+        <script src="{{ asset('build/assets/app-C1-XIpUa.js') }}" defer></script>
 
         <!-- Styles -->
         @livewireStyles
